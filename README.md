@@ -1,4 +1,5 @@
-# Sistema de gerenciamento bancário com as operações sacar, depositar e visualizar do extrato
+# Sistema de gerenciamento bancário
+Criação de um sistema de gerenciamento bancario em Python
 
 ## Objetivo Geral
 
