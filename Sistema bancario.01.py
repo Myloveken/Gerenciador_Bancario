@@ -1,6 +1,6 @@
 menu = f"menu principal".upper().center(60)+"""
 
-Seja bem vinda(o) ao nosso gerenciador de saque.
+Seja bem vinda(o) ao nosso gerenciador!
 
 O nosso sistema tem todas as opção para gerar sua conta
 
@@ -64,12 +64,13 @@ while True:
 
     elif opcao == "3":
         print("\n= EXTRATO =")
-        print("Não foram realizadas movimentações." if not Extrato else Extrato)
+        print("Não foram realizadas movimentações." 
+    if not Extrato else Extrato)
         print(f"\nSaldo: R$ {Saldo:.2f}")
         print("")
 
     elif opcao == "4":
-        
+        print("Obrigada por utilizar o nosso sistema de gerenciador !")
         break
 
     else:
